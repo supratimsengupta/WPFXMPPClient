@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApplication1.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="262" Width="450">
+    <Grid>
+        <Label HorizontalAlignment="Left" Margin="10,40,0,0" Name="lblUserName" VerticalAlignment="Top" Content="UserName:"/>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="124,40,0,0" Name="txtUsername" VerticalAlignment="Top" Width="294"/>
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="258,174,0,0" Name="btnCancel" VerticalAlignment="Top" Width="95" Click="btnCancel_Click" />
+        <Button Content="Sign In" Height="23" HorizontalAlignment="Left" Margin="133,174,0,0" Name="btnSignIn" VerticalAlignment="Top" Width="100" Click="btnSignIn_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="124,98,0,0" Name="txtPassword" VerticalAlignment="Top" Width="294" />
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="12,98,0,0" Name="lblPwd" VerticalAlignment="Top" />
+    </Grid>
+</Window>
